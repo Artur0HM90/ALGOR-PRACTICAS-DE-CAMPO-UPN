@@ -9,6 +9,6 @@ for i in range(8):
     numeros.append(numero)
 
 print(f"Los números ingresados son: {numeros}")
-print(f"El primer número es: {numeros[0]}")
-print(f"El último número es: {numeros[-1]}")
-print(f"El número de elementos en la lista es: {len(numeros)}")
+print(f"El número mayor es: {max(numeros)}")
+print(f"El numero menor es: {min(numeros)}")
+print(f"La suma de los números es: {sum(numeros)}")
