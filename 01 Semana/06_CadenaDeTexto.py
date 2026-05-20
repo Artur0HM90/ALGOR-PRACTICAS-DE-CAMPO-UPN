@@ -1,0 +1,10 @@
+print("=======================")
+print("Cadenas en Python") 
+print("=======================")
+
+frase = input("Ingrese una frase: ")
+print(f"La frase ingresada es: {frase}")
+print(f"La cantidad de caracteres en la frase es: {len(frase)}")
+print(f"La frase en mayúsculas es: {frase.upper()}")
+print(f"La frase en minúsculas es: {frase.lower()}")
+print(f"la frase invertida es: {frase[::-1]}")
