@@ -1,3 +1,7 @@
+print("=======================")
+print("Busqueda Lineal") 
+print("=======================")
+
 import random
 
 def busqueda_lineal(lista, objetivo):

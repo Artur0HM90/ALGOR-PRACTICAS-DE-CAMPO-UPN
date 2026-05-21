@@ -1,3 +1,7 @@
+print("=======================")
+print("Número Mayor Sin Utilizar Max ()") 
+print("=======================")
+
 def encontrar_mayor(lista):
     if not lista:
         return "La lista está vacía"

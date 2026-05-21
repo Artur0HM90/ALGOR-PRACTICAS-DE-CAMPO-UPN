@@ -1,3 +1,7 @@
+print("=======================")
+print("Fuerza Bruta para Contraseña") 
+print("=======================")
+
 contrasena_objetivo = input("Ingrese la contraseña numérica de 3 dígitos (ej. 123): ")
 
 intentos = 0
