@@ -2,16 +2,21 @@ print("=======================")
 print("Busqueda Lineal") 
 print("=======================")
 
-import random
-
 def busqueda_lineal(lista, objetivo):
     for i in range(len(lista)):
         if lista[i] == objetivo:
             return i
     return -1
 
-# Generar lista de 10 números aleatorios
-lista = random.sample(range(1, 100), 10)
+# Crear lista ingresada por el usuario
+lista = []
+
+n = int(input("¿Cuántos números deseas ingresar?: "))
+
+for i in range(n):
+    num = int(input("Ingresa un número: "))
+    lista.append(num)
+
 print("Lista:", lista)
 
 buscar = int(input("Ingresa el número a buscar: "))
