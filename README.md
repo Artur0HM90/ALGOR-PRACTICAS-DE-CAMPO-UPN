@@ -1,4 +1,4 @@
-# ALGOR-PRACTICAS-DE-CAMPO-UPN
+# ALGOR-PRACTICAS-DE-CAMPO-UPN  ![Logo](https://www.upn.edu.pe/sites/default/files/styles/max_650x650/public/2021-09/upn_nw_rebranding_27_sep.png?itok=vyyV8qKe)
 
 ## Integrantes 
 |Nombres| Código| ID GitHub|
