@@ -1,7 +1,7 @@
 # ALGOR-PRACTICAS-DE-CAMPO-UPN
 
 ## Integrantes 
-|Nombres| codigo| ID GitHub|
+|Nombres| Código| ID GitHub|
 |-------|--------|---------|
 |1. Bruce Barrera Neyra|N00439177| [Brucebn89](https://github.com/Brucebn89)|
 |2. Arturo Hurtado Mendez|N00438882|[Artur0HM90](https://github.com/Artur0HM90)|
