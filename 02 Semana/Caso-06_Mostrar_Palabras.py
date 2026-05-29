@@ -12,6 +12,7 @@ if opcion == "s":
         palabra = input("Ingresa una palabra: ")
         palabras.append(palabra)
 else:
+    print("Usando palabras predefinidas")
     palabras = ["sol", "estrella", "mar", "montaña", "volcán", "río"]
 
 for palabra in palabras:
