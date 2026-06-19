@@ -8,21 +8,21 @@
 # ============================================================
 
 pedidos = [
-    {"codigo": "P001", "cliente": "Luis Perez", "ciudad": "Lima", "peso": 2.5, "prioridad": "Alta", "costo": 150.00},
-    {"codigo": "P002", "cliente": "Maria Gomez", "ciudad": "Arequipa", "peso": 1.8, "prioridad": "Media", "costo": 120.00},
-    {"codigo": "P003", "cliente": "Carlos Ruiz", "ciudad": "Cusco", "peso": 3.2, "prioridad": "Baja", "costo": 200.00},
-    {"codigo": "P004", "cliente": "Ana Torres", "ciudad": "Trujillo", "peso": 4.0, "prioridad": "Alta", "costo": 250.00},
-    {"codigo": "P005", "cliente": "Pedro Diaz", "ciudad": "Piura", "peso": 1.5, "prioridad": "Media", "costo": 90.00},
-    {"codigo": "P006", "cliente": "Laura Sanchez", "ciudad": "Chiclayo", "peso": 2.0, "prioridad": "Alta", "costo": 180.00},
-    {"codigo": "P007", "cliente": "Jorge Castro", "ciudad": "Lima", "peso": 3.8, "prioridad": "Baja", "costo": 220.00},
-    {"codigo": "P008", "cliente": "Sofia Mendoza", "ciudad": "Arequipa", "peso": 2.2, "prioridad": "Media", "costo": 130.00},
-    {"codigo": "P009", "cliente": "Diego Flores", "ciudad": "Cusco", "peso": 5.0, "prioridad": "Alta", "costo": 300.00},
-    {"codigo": "P010", "cliente": "Valentina Rios", "ciudad": "Trujillo", "peso": 1.2, "prioridad": "Media", "costo": 75.00},
-    {"codigo": "P011", "cliente": "Andres Vega", "ciudad": "Piura", "peso": 2.8, "prioridad": "Baja", "costo": 160.00},
-    {"codigo": "P012", "cliente": "Camila Soto", "ciudad": "Chiclayo", "peso": 3.0, "prioridad": "Alta", "costo": 210.00},
-    {"codigo": "P013", "cliente": "Roberto Nunez", "ciudad": "Lima", "peso": 1.7, "prioridad": "Media", "costo": 110.00},
-    {"codigo": "P014", "cliente": "Daniela Paredes", "ciudad": "Arequipa", "peso": 4.5, "prioridad": "Alta", "costo": 280.00},
-    {"codigo": "P015", "cliente": "Fernando Cruz", "ciudad": "Cusco", "peso": 2.3, "prioridad": "Baja", "costo": 140.00}
+    {"codigo": "P001", "cliente": "Carlos Mendoza",  "ciudad": "Lima",     "peso": 2.5, "prioridad": "Alta",  "costo": 150.00},
+    {"codigo": "P002", "cliente": "Ana Torres",       "ciudad": "Arequipa", "peso": 5.0, "prioridad": "Media", "costo": 220.00},
+    {"codigo": "P003", "cliente": "Luis Quispe",      "ciudad": "Cusco",    "peso": 1.2, "prioridad": "Baja",  "costo": 180.00},
+    {"codigo": "P004", "cliente": "Maria Flores",     "ciudad": "Trujillo", "peso": 3.8, "prioridad": "Alta",  "costo": 130.00},
+    {"codigo": "P005", "cliente": "Jorge Ramirez",    "ciudad": "Piura",    "peso": 7.0, "prioridad": "Media", "costo": 310.00},
+    {"codigo": "P006", "cliente": "Rosa Huanca",      "ciudad": "Chiclayo", "peso": 4.5, "prioridad": "Alta",  "costo": 275.00},
+    {"codigo": "P007", "cliente": "Pedro Salas",      "ciudad": "Lima",     "peso": 0.8, "prioridad": "Baja",  "costo": 90.00},
+    {"codigo": "P008", "cliente": "Elena Vargas",     "ciudad": "Arequipa", "peso": 6.2, "prioridad": "Alta",  "costo": 340.00},
+    {"codigo": "P009", "cliente": "Carlos Vega",      "ciudad": "Trujillo", "peso": 2.0, "prioridad": "Baja",  "costo": 115.00},
+    {"codigo": "P010", "cliente": "Lucia Paredes",    "ciudad": "Lima",     "peso": 9.5, "prioridad": "Media", "costo": 420.00},
+    {"codigo": "P011", "cliente": "Manuel Chavez",    "ciudad": "Cusco",    "peso": 3.3, "prioridad": "Alta",  "costo": 195.00},
+    {"codigo": "P012", "cliente": "Sandra Torres",    "ciudad": "Piura",    "peso": 1.7, "prioridad": "Baja",  "costo": 105.00},
+    {"codigo": "P013", "cliente": "Roberto Quispe",   "ciudad": "Chiclayo", "peso": 8.1, "prioridad": "Media", "costo": 380.00},
+    {"codigo": "P014", "cliente": "Patricia Mendoza", "ciudad": "Lima",     "peso": 4.0, "prioridad": "Alta",  "costo": 260.00},
+    {"codigo": "P015", "cliente": "Andres Flores",    "ciudad": "Arequipa", "peso": 5.5, "prioridad": "Media", "costo": 290.00},
 ]
 
 # ============================================================
