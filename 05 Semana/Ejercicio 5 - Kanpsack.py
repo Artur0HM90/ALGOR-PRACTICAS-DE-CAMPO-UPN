@@ -1,28 +1,3 @@
-"""
-Ejercicio 5: Problema de la Mochila (Knapsack)
--------------------------------------------------
-Se cuenta con una mochila de capacidad máxima W = 10 kg y un conjunto
-de objetos, cada uno con un peso y un valor determinado. Se debe
-determinar el valor máximo que se puede transportar sin exceder la
-capacidad de la mochila (Knapsack 0/1: cada objeto se elige o no,
-no se puede fraccionar ni repetir).
-
-Se resuelve con Programación Dinámica (Bottom-Up) construyendo una
-tabla dp[i][w] que representa:
-    dp[i][w] = valor máximo que se puede obtener usando los primeros
-               'i' objetos sin exceder una capacidad 'w'
-
-Relación de recurrencia:
-    Si el peso del objeto i NO cabe en la capacidad w:
-        dp[i][w] = dp[i-1][w]
-
-    Si el peso del objeto i SÍ cabe en la capacidad w:
-        dp[i][w] = max( dp[i-1][w],                      # no se lleva el objeto
-                         valor[i] + dp[i-1][w - peso[i]]  # se lleva el objeto
-                       )
-"""
-
-
 def knapsack(objetos, capacidad_max):
     n = len(objetos)
 
