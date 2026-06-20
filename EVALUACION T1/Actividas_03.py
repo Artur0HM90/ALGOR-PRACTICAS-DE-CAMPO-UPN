@@ -1,11 +1,9 @@
-# ============================================================
-# PARTE 3: ALGORITMOS DE ORDENAMIENTO - UPN CARGO S.A.C.
-# ============================================================
+# Actividad 03 
 
 import copy
 
 # ----------------------------------------------------------
-# Base de datos de 15 pedidos
+# Se genero una base de datos de 15 pedidos
 # ----------------------------------------------------------
 pedidos = [
     {"codigo": "P001", "cliente": "Tech Solutions SAC",    "ciudad": "Lima",      "peso": 5.0,  "prioridad": "Alta",  "costo": 250.00},
@@ -136,55 +134,3 @@ print(f"{'Burbuja':<25} {comp_b:>15} {inter_b:>14}")
 print(f"{'Selección':<25} {comp_s:>15} {inter_s:>14}")
 print(f"{'Inserción':<25} {comp_i:>15} {inter_i:>14}")
 print("="*60)
-
-# ----------------------------------------------------------
-# RESPUESTAS A LAS PREGUNTAS
-# ----------------------------------------------------------
-print("""
-======================================================
-  RESPUESTAS A LAS PREGUNTAS
-======================================================
-
-a) DIFERENCIAS EN EL NÚMERO DE COMPARACIONES
-------------------------------------------------------
-  • Burbuja:   siempre realiza n*(n-1)/2 comparaciones
-    independientemente del orden inicial → O(n²)
-  • Selección: también realiza n*(n-1)/2 comparaciones
-    en todos los casos → O(n²), pero minimiza intercambios
-    (máximo n-1 swaps).
-  • Inserción: en el mejor caso (lista casi ordenada)
-    realiza solo O(n) comparaciones; en el peor caso O(n²).
-    Para datos parcialmente ordenados es el más eficiente
-    de los tres.
-
-b) ALGORITMO MÁS ADECUADO PARA CONJUNTOS PEQUEÑOS
-------------------------------------------------------
-  → INSERCIÓN es el más adecuado para conjuntos pequeños.
-  Razones:
-    - Menos intercambios reales en memoria.
-    - Muy eficiente cuando los datos están parcialmente
-      ordenados (caso común en pedidos reales).
-    - Código simple y bajo overhead de ejecución.
-    - Es el algoritmo que usan internamente Python y otros
-      lenguajes para listas pequeñas (< 64 elementos).
-
-c) PRINCIPAL LIMITACIÓN PARA GRANDES VOLÚMENES
-------------------------------------------------------
-  Los tres algoritmos tienen complejidad temporal O(n²) en
-  el caso promedio y peor caso. Esto significa que al
-  duplicar la cantidad de pedidos, el tiempo de ejecución
-  se CUADRUPLICA.
-
-  Ejemplo práctico:
-    - 15 pedidos  → ~105 comparaciones  (inmediato)
-    - 1,000 pedidos → ~500,000 comparaciones (lento)
-    - 10,000 pedidos → ~50,000,000 comparaciones (muy lento)
-    - 100,000 pedidos → ~5,000,000,000 comparaciones (inviable)
-
-  Para grandes volúmenes se deben utilizar algoritmos de
-  complejidad O(n log n) como:
-    • Merge Sort  → estable, eficiente, divide y vencerás
-    • Quick Sort  → muy rápido en la práctica
-    • Tim Sort    → algoritmo de Python (sorted/list.sort)
-======================================================
-""")
